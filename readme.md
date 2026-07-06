@@ -66,29 +66,19 @@ source venv/bin/activate # On Windows: venv\Scripts\activate
 
 ## 2. Server Setup
 
-### Install dependencies
-
 pip install -r requirements.txt
 
 ### Add your API keys to env file
-
-export GOOGLE_API_KEY="your-google-api-key"
-export TAVILY_API_KEY="your-tavily-api-key"
+GOOGLE_API_KEY="your-google-api-key"
+TAVILY_API_KEY="your-tavily-api-key"
 
 ### Run the FastAPI server
-
 uvicorn server.app:app --reload
 
 ## 3. Client Setup
 
 cd client
-
-### Install dependencies
-
 npm install
-
-### Run the development server
-
 npm run dev
 
 # How It Works
