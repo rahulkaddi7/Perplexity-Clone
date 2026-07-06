@@ -59,39 +59,39 @@ git clone <repo-url>
 cd <repo-directory>
 ```
 
-# Create a virtual environment (recommended)
+### Create a virtual environment (recommended)
 
 python -m venv venv
 source venv/bin/activate # On Windows: venv\Scripts\activate
 
-### 2. Server Setup
+## 2. Server Setup
 
-# Install dependencies
+### Install dependencies
 
 pip install -r requirements.txt
 
-# Add your API keys to env file
+### Add your API keys to env file
 
 export GOOGLE_API_KEY="your-google-api-key"
 export TAVILY_API_KEY="your-tavily-api-key"
 
-# Run the FastAPI server
+### Run the FastAPI server
 
 uvicorn server.app:app --reload
 
-### 3. Client Setup
+## 3. Client Setup
 
 cd client
 
-# Install dependencies
+### Install dependencies
 
 npm install
 
-# Run the development server
+### Run the development server
 
 npm run dev
 
-How It Works
+# How It Works
 Agent Architecture (LangGraph)
 The backend defines a simple but powerful state graph:
 
