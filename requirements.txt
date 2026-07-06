@@ -1,0 +1,6 @@
+langgraph 
+langchain-google-genai 
+langchain-core 
+python-dotenv 
+fastapi 
+langchain-community
