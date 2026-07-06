@@ -69,6 +69,7 @@ source venv/bin/activate # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 ### Add your API keys to env file
+
 GOOGLE_API_KEY="your-google-api-key"
 TAVILY_API_KEY="your-tavily-api-key"
 
@@ -82,6 +83,7 @@ npm install
 npm run dev
 
 # How It Works
+
 Agent Architecture (LangGraph)
 The backend defines a simple but powerful state graph:
 
